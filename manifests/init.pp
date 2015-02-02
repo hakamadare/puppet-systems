@@ -37,7 +37,10 @@
 #
 class systems {
 
-  class { '::hiera': }
+  class { '::hiera':
+    backends  => ['yaml', 'module_data'],
+    hierarchy => ['common'],
+  }
 
   class { '::ntp': }
 
