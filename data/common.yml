@@ -1,0 +1,9 @@
+---
+::epel::epel_enabled: true
+
+::ntp::restrict:
+    - '127.0.0.1'
+
+::yum_cron::check_first: 'yes'
+::yum_cron::check_only: 'no'
+::yum_cron::download_only: 'no'

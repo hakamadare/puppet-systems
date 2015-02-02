@@ -1,0 +1,40 @@
+## MAC OS
+.DS_Store
+
+## TEXTMATE
+*.tmproj
+tmtags
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.swp
+*.swo
+tags
+
+## Bundler
+.bundle
+vendor/
+
+## rbenv / rvm
+.rbenv*
+.rvmrc*
+.ruby-*
+
+## rspec
+spec/fixtures/
+
+## Puppet module
+pkg/
+coverage/
+
+## Librarian-puppet
+.tmp/
+.librarian/
+
+## Hiera
+## https://www.devco.net/archives/2013/12/08/better-puppet-modules-using-hiera-data.php
+data/local.yml

@@ -1,0 +1,19 @@
+{
+  "name": "hakamadare-systems",
+  "version": "0.1.0",
+  "author": "hakamadare",
+  "summary": "Configuration for my personal systems",
+  "license": "Apache 2.0",
+  "source": "https://github.com/hakamadare/puppet-systems",
+  "project_page": "https://github.com/hakamadare/puppet-systems",
+  "issues_url": "https://github.com/hakamadare/puppet-systems/issues",
+  "dependencies": [
+    {"name":"puppetlabs-ntp","version_requirement":">= 3.3.0"},
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"ripienaar-module_data","version_requirement":">= 0.0.3"},
+    {"name":"stahnma-epel","version_requirement":">= 1.0.2"},
+    {"name":"stahnma-puppetlabs_yum","version_requirement":">= 0.1.4"},
+    {"name":"treydock-yum_cron","version_requirement":">= 1.1.1"}
+  ]
+}
+
