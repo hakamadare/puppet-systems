@@ -2,11 +2,14 @@
 epel::epel_enabled: true
 
 hiera::backends:
-  - 'yaml'
-  - 'module_data'
+    - 'yaml'
+    - 'module_data'
+
+hiera::hierarchy:
+    - 'common'
 
 ntp::restrict:
-  - '127.0.0.1'
+    - '127.0.0.1'
 
 yum_cron::check_first: 'yes'
 yum_cron::check_only: 'no'
