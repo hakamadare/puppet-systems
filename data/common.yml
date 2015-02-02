@@ -1,6 +1,10 @@
 ---
 ::epel::epel_enabled: true
 
+::hiera::backends:
+    - 'yaml'
+    - 'module_data'
+
 ::ntp::restrict:
     - '127.0.0.1'
 

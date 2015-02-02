@@ -37,6 +37,8 @@
 #
 class systems {
 
+  class { '::hiera': }
+
   class { '::ntp': }
 
   class { 'systems::yum': }
