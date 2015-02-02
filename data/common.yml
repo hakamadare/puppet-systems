@@ -1,13 +1,13 @@
 ---
-::epel::epel_enabled: true
+epel::epel_enabled: true
 
-::hiera::backends:
-    - 'yaml'
-    - 'module_data'
+hiera::backends:
+  - 'yaml'
+  - 'module_data'
 
-::ntp::restrict:
-    - '127.0.0.1'
+ntp::restrict:
+  - '127.0.0.1'
 
-::yum_cron::check_first: 'yes'
-::yum_cron::check_only: 'no'
-::yum_cron::download_only: 'no'
+yum_cron::check_first: 'yes'
+yum_cron::check_only: 'no'
+yum_cron::download_only: 'no'
